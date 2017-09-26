@@ -39,16 +39,37 @@
 |wc|-l -w -c|Wordcount|
 |cut|-d -f -c|Bepaalde kolommen selecteren uit een bestand|
 |grep|-c -n |Filteren van lijnen uit een file of output|
-|KeePassX|/|Genereren sterk passwoord|
-|KeePassX|/|Genereren sterk passwoord|
-|KeePassX|/|Genereren sterk passwoord|
-|KeePassX|/|Genereren sterk passwoord|
-|KeePassX|/|Genereren sterk passwoord|
-|KeePassX|/|Genereren sterk passwoord|
-|KeePassX|/|Genereren sterk passwoord|
-|KeePassX|/|Genereren sterk passwoord|
-|KeePassX|/|Genereren sterk passwoord|
-|KeePassX|/|Genereren sterk passwoord|
-|KeePassX|/|Genereren sterk passwoord|
-|KeePassX|/|Genereren sterk passwoord|
-|KeePassX|/|Genereren sterk passwoord|
+|arch/lscpu|/|Toont type cpu|
+|cat /proc/cpuinfo|/|Toont info cpu|
+|lspci|-nn -d -v -vv -vvv|Toont info pci|
+|lsusb|-v|Toont alle usb apparaten|
+|lshal|/|Informatie hardware|
+|apt-get [package]| update install upgrade [--purge] remove|Packet manager voor Debian-derived|
+|yum| update install upgrade [--purge] remove|Package manager Red Hat-derived|
+|ps|--forest aux -ef|Toont active processen|
+|pstree|/| " |
+|top|/| " |
+|syslogd/klogd/rsyslogd/systemd-journal|/|Log files|
+|dmesg|/|Kernl buffer ring|
+|cat [/etc/sysconfig/network-scripts/ifcfg-eth0
+/etc/hosts
+/etc/sysconfig/network
+/etc/nsswitch.conf]|/|Genereren sterk passwoord|
+|ifconfig|/|Algemene info netwerk config|
+|ip addr show|/|Netwerkkaart config|
+|route|-n|Toont routering tabel|
+|ping [address]|-c|Contact opnemen met adres|
+|netstat|-i -r -tln|Netwerkverkeer tonen|
+|dig [address]|/|DNS|
+|host [address]|-ta|Opzoeken aan welk IP/naam het adres gekoppelt is|
+|ssh [naam@naam.naam]|/|Remote verbinding aangaan via ssh|
+|id [user]|-g -G|Toont uid/gid/groups van de user|
+|who|/|Toont alle ingelogde gebruikers|
+|w|/|Uitgebreide who|
+|chgrp [groupname] [file]|-R|Wijzigen groepeigenaar van file|
+|dmesg|/|Kernl buffer ring|
+|dmesg|/|Kernl buffer ring|
+|dmesg|/|Kernl buffer ring|
+|dmesg|/|Kernl buffer ring|
+|dmesg|/|Kernl buffer ring|
+|dmesg|/|Kernl buffer ring|
