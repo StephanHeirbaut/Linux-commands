@@ -3,6 +3,7 @@
 |--------|----------|-----------------------------------------------------------------|
 |KeePassX|/|Genereren sterk passwoord|
 |ls [directory]|-lahRS |Weergeven (current) directory |
+|stat [directory]|/|Betere versie van ls -l|
 |history|[number]|Weergeven welke commando's er ingegeven geweest zijn|
 |!!|/|Vorig commando nog eens uitvoeren|
 |!-5|/|Het commando uitvoeren dat op de 5de plaats van vanonder in de uitvoergeschiedenis zit|
@@ -67,9 +68,21 @@
 |who|/|Toont alle ingelogde gebruikers|
 |w|/|Uitgebreide who|
 |chgrp [groupname] [file]|-R|Wijzigen groepeigenaar van file|
-|dmesg|/|Kernl buffer ring|
-|dmesg|/|Kernl buffer ring|
-|dmesg|/|Kernl buffer ring|
-|dmesg|/|Kernl buffer ring|
-|dmesg|/|Kernl buffer ring|
-|dmesg|/|Kernl buffer ring|
+|grep [user] /etc/group|/|Toont alle lokale groepen|
+|getent|/|Net zoals grep, maar zowel local als netwerkgroepen|
+|groupadd [naam]|-g -r|Groep creëren|
+|groupmod [naam]|-n -g|Aanpassen groepnaam of GID|
+|find / -nogroup|/|Zoeken files zonder groupparent|
+|groupdel [naam]|/|Verwijderen groep|
+|useradd [naam]|-D -g -f -b|Nieuwe user toevoegen (vb.: useradd -u 1000 -g users -G wheel,research -c 'Jane Doe' jane)|
+|usermod [user]|-u -g -aG|Aanpassen gebruiker instellingen (vb.: usermod -aG development jane)|
+|userdel [naam]|/|Verwijderen user|
+|passwd [user]|/|Aanpassen wachtwoord user|
+|chage|/|Aanpassen wachtwoord vereisten|
+|chown [file]|user:group|Laat root-user toe om group- en userownership aan te passen|
+|chmod [permission] [file]|/|Aanpassen permissies van file|
+|umask [permission]|/|Bepalen default permissies|
+|chmod g+s [file/directory]|/|Aanpassen setgit|
+|chmod o+t [directory]|/|Sticky bit instellen|
+|ln [file] [link]|/|Hardlink naar file|
+|ln -s [file] [link]|/|Softlink naar file|
