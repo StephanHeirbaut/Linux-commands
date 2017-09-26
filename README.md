@@ -2,7 +2,7 @@
 |Commando|Parameters|Uitleg|
 |--------|----------|-----------------------------------------------------------------|
 |KeePassX|/|Genereren sterk passwoord|
-|ls|-lahRS [directory]|Weergeven (current) directory |
+|ls [directory]|-lahRS |Weergeven (current) directory |
 |history|[number]|Weergeven welke commando's er ingegeven geweest zijn|
 |!!|/|Vorig commando nog eens uitvoeren|
 |!-5|/|Het commando uitvoeren dat op de 5de plaats van vanonder in de uitvoergeschiedenis zit|
