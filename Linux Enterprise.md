@@ -25,7 +25,7 @@
 |systemctl --state=running,inactive,|/|Toont alle services die aan het draaien zijn|
 |systemctl --failed|/|Toont alle gefaalde services|
 
-#Journalctl
+# Journalctl
 
 ## bij alles sudo verplicht
 
