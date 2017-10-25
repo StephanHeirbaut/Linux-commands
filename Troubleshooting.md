@@ -32,4 +32,7 @@
 - config file syntax
 - programmeurs
 - curl, wget webbrowser
+- apachectl, configtest webbrowser testen
 - smbclient, nmblookup, net use(Windows) fileserver
+- testparm fileserver
+- named-checkconf, named-checkzone DNS
