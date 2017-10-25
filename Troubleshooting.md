@@ -16,6 +16,7 @@
 - dig voor query DNS
 - nslookup voor query DNS
 - getent voor query DNS
+- cat /etc/resolv.conf (VBOX: 10.0.2.3)
 
 ### Transport laag
 
