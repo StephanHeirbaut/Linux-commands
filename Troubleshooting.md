@@ -1,6 +1,6 @@
 # Troubleshooting
 
-## Stap 1: Volg get TCP/IP van beneden naar boven
+## Volg Het TCP/IP van beneden naar boven
 
 ### Fysieke en data link laag
 
