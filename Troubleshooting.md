@@ -27,6 +27,9 @@
 - sudo iptables -L -n -v vooral voor oudere systemen zonder systemd, ook firewall instellingen
 
 ### Applicatie laag
-- sudo journalctl -f -u [service] check de log bestanden (error en access)
+- sudo journalctl -l -f -u [service] check de log bestanden (error en access)
+- sudo journalctl -f [service] open een 2de terminal met een constante stroom van logs
 - config file syntax
 - programmeurs
+- curl, wget webbrowser
+- smbclient, nmblookup, net use(Windows) fileserver
