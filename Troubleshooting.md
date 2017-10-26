@@ -29,6 +29,7 @@
 - sudo ps -ef toont alle (e) processen met de volledige uitleg (f)
 - sudo firewall-cmd --list-all laat de firewall het verkeer toe?
 - sudo iptables -L -n -v vooral voor oudere systemen zonder systemd, ook firewall instellingen
+- /etc/service/conf poortnummer controleren
 
 ### Applicatie laag
 - sudo journalctl -l -f -u [service] check de log bestanden (error en access)
