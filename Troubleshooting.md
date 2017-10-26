@@ -12,6 +12,7 @@
 
 - ip a voor adressering
 - ip r voor default gateway
+- ip route add 192.168.1.0/24 via 192.168.1.254 vb. aanpassen default gateway
 - ping tussen hosts en GW/DNS
 - dig voor query DNS
 - nslookup voor query DNS
