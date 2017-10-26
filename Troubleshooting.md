@@ -17,7 +17,10 @@
 - dig voor query DNS
 - nslookup voor query DNS
 - getent voor query DNS
-- cat /etc/resolv.conf (VBOX: 10.0.2.3)
+- cat /etc/resolv.conf
+- VBOX default NAT interface: 10.0.2.15
+- VBOX Default Gateway: 10.0.2.2
+- VBOX DNS: 10.2.3
 
 ### Transport laag
 
