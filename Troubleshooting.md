@@ -30,6 +30,7 @@
 - sudo firewall-cmd --list-all laat de firewall het verkeer toe?
 - sudo iptables -L -n -v vooral voor oudere systemen zonder systemd, ook firewall instellingen
 - /etc/service/conf poortnummer controleren
+- /var/log/service/...
 
 ### Applicatie laag
 - sudo journalctl -l -f -u [service] check de log bestanden (error en access)
