@@ -42,6 +42,8 @@
 |journalctl -p err|/|Toont alleen de ergste meldingen (errors enzo)|
 |journalctl --since=[date] \ [--until=[date]]|/|Toont alle logs sinds dat bepaald tijdsstip, en eventueel tot een bepaald tijdstip|
 
+[Uitleg Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-use-journalctl-to-view-and-manipulate-systemd-logs)
+
 # Show sockets
 
 ## netstat is obsolete (/prov/net/tcp), gebruik ss (direct aan de kernel)
@@ -79,3 +81,5 @@
 |firewall-cmd --reload|/|Herstart de firewall om de nieuwe regels toe te passen|
 |firewall-cmd --panic-on|/|Blokkeer al het verkeer|
 |firewall-cmd --panic-off|/|Schakelt panic-mode weer uit|
+
+[ComputerHope](https://www.computerhope.com/)
