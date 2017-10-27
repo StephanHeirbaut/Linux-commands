@@ -83,8 +83,8 @@
 
 ### Helpfull links
 
-[ComputerHope](https://www.computerhope.com/)
-[Uitleg Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-use-journalctl-to-view-and-manipulate-systemd-logs)
-[BertVV uitleg YT](https://www.youtube.com/watch?v=ciXpmDwJKOM&index=4&list=PLQax3yoBY5vsgZm9O5-bO2Q5rwARlKESd)
-[BertVV troubleshooting presentation](https://bertvv.github.io/presentation-el7-basics/)
-[BertVV troubleshooting repo](https://github.com/bertvv/linux-network-troubleshooting)
+- [ComputerHope](https://www.computerhope.com/)  
+- [Uitleg Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-use-journalctl-to-view-and-manipulate-systemd-logs)  
+- [BertVV uitleg YT](https://www.youtube.com/watch?v=ciXpmDwJKOM&index=4&list=PLQax3yoBY5vsgZm9O5-bO2Q5rwARlKESd)  
+- [BertVV troubleshooting presentation](https://bertvv.github.io/presentation-el7-basics/)  
+- [BertVV troubleshooting repo](https://github.com/bertvv/linux-network-troubleshooting)  
