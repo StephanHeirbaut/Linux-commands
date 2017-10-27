@@ -36,11 +36,11 @@
 |journalctl|[executable] vb.: /usr/sbin/dhclient| Toont alle entries die matchen met deze executable|
 |journalctl|[device node] vb.: /dev/sda|Toont alle entries die matchen met die bepaalde node|
 |journalctrl [_TRANSPORT=audit]|/|Toont auditd logs|
-|journalctrl -b|/|Alle logs sinds opstarten|
-|journalctrl -k|/|Alle kernel messages sinds opstarten|
-|journalctrl -r|/|Toont de logs in omgekeerde volgorde (eerst de oudste)|
-|journalctrl -p err|/|Toont alleen de ergste meldingen (errors enzo)|
-|journalctrl --since=[date] \ [--until=[date]]|/|Toont alle logs sinds dat bepaald tijdsstip, en eventueel tot een bepaald tijdstip|
+|journalctl -b|/|Alle logs sinds opstarten|
+|journalctl -k|/|Alle kernel messages sinds opstarten|
+|journalctl -r|/|Toont de logs in omgekeerde volgorde (eerst de oudste)|
+|journalctl -p err|/|Toont alleen de ergste meldingen (errors enzo)|
+|journalctl --since=[date] \ [--until=[date]]|/|Toont alle logs sinds dat bepaald tijdsstip, en eventueel tot een bepaald tijdstip|
 
 # Show sockets
 
